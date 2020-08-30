@@ -16,9 +16,16 @@ p {
 
 .big-heading {
   font-family: "Montserrat";
-  font-size: 3.5rem;
+  font-size: 2rem;
   line-height: 1.5;
 }
+
+.sub-text {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
 
 .section-heading {
   font-size: 3rem;
@@ -45,7 +52,7 @@ p {
 /* Navigation Bar */
 
 .navbar {
-  padding: 0 0 4.5rem;
+  padding: 0 0 1.5rem;
 }
 
 .navbar-brand {
@@ -84,7 +91,9 @@ p {
 /* Title Image */
 
 .title-image {
-  width: 150%;
+  width: 120%;
+  height: 100%;
+  display: block;
 /*  transform: rotate(25deg);
 */ /* position: absolute;*/
   right: 30%;
